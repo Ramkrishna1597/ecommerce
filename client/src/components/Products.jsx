@@ -35,8 +35,8 @@ const Products = () => {
                             style={{ maxHeight: "200px", objectFit: "contain" }}
                         />
                         <Card.Body>
-                            <Card.Title>{e.name}</Card.Title>
-                            <Card.Text>{e.description}</Card.Text>
+                            <Card.Title>{e.title}</Card.Title>
+                            <Card.Text>{e.price}</Card.Text>
                             <Button variant="primary">Edit</Button>
                         </Card.Body>
                     </Card>
